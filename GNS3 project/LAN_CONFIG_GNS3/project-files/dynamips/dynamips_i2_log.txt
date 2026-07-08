@@ -1,0 +1,23 @@
+Jul 08 20:38:44.511 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 08 20:38:44.511 HYPERVISOR: Started on IP = localhost, TCP port = 57643.
+Jul 08 20:38:45.020 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 08 20:38:45.020 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Itsimplera-internship\week 02\GNS3 project\LAN_CONFIG_GNS3\project-files\dynamips 
+Jul 08 20:38:45.020 GENERAL: working_dir=C:\Itsimplera-internship\week 02\GNS3 project\LAN_CONFIG_GNS3\project-files\dynamips
+Jul 08 20:38:45.020 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Jul 08 20:38:45.091 HYPERVISOR: exec_cmd: nio create_udp udp-a4075628-7390-44aa-83e0-85ffc1e3fce9 10001 127.0.0.1 10000 
+Jul 08 20:38:45.091 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-a4075628-7390-44aa-83e0-85ffc1e3fce9 
+Jul 08 20:38:45.115 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-a4075628-7390-44aa-83e0-85ffc1e3fce9 1 
+Jul 08 20:38:45.416 HYPERVISOR: exec_cmd: nio create_udp udp-65f29f4d-204f-4f71-a5d5-8cb14d42ec95 10011 127.0.0.1 10010 
+Jul 08 20:38:45.416 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-65f29f4d-204f-4f71-a5d5-8cb14d42ec95 
+Jul 08 20:38:45.432 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-65f29f4d-204f-4f71-a5d5-8cb14d42ec95 2 
+Jul 08 20:38:45.486 HYPERVISOR: exec_cmd: nio create_udp udp-caa2de65-ea37-4afb-bbd5-3746d3c04ae3 10013 127.0.0.1 10012 
+Jul 08 20:38:45.486 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-caa2de65-ea37-4afb-bbd5-3746d3c04ae3 
+Jul 08 20:38:45.496 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-caa2de65-ea37-4afb-bbd5-3746d3c04ae3 2 
+Jul 08 20:38:45.543 HYPERVISOR: exec_cmd: nio create_udp udp-240fd2c1-a3da-4031-a191-877f6231714c 10015 127.0.0.1 10014 
+Jul 08 20:38:45.543 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-240fd2c1-a3da-4031-a191-877f6231714c 
+Jul 08 20:38:45.560 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-240fd2c1-a3da-4031-a191-877f6231714c 1 
+Jul 08 20:38:45.615 HYPERVISOR: exec_cmd: nio create_udp udp-42e6df4a-ec8c-4c47-aae0-18475a92d2b1 10017 127.0.0.1 10016 
+Jul 08 20:38:45.615 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-42e6df4a-ec8c-4c47-aae0-18475a92d2b1 
+Jul 08 20:38:45.623 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-42e6df4a-ec8c-4c47-aae0-18475a92d2b1 1 
+Jul 08 20:42:12.537 HYPERVISOR: Stopped.
+Jul 08 20:42:12.662 GENERAL: reset done.
